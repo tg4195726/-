@@ -7,8 +7,8 @@ import random
 # ==========================================
 # 1. 네이버 API 설정 (본인의 키를 입력하세요)
 # ==========================================
-NAVER_CLIENT_ID = st.secrets["MZBSUWW1pY5jzZKxQ7OM"]
-NAVER_CLIENT_SECRET = st.secrets["m8MSX_HUjT"]
+NAVER_CLIENT_ID = st.secrets["NAVER_CLIENT_ID"]
+NAVER_CLIENT_SECRET = st.secrets["NAVER_CLIENT_SECRET"]
 
 def clean_html(raw_html):
     """API 결과값의 HTML 태그 제거"""
